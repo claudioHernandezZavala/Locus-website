@@ -189,7 +189,7 @@ const Navbar = () => {
                   <div className="relative">
                       <div className="absolute inset-0 bg-indigo-500 blur-sm opacity-0 group-hover:opacity-40 transition-opacity rounded"></div>
                       <div className="relative w-8 h-8 rounded bg-slate-800 border border-slate-700 flex items-center justify-center overflow-hidden">
-                          <img src="/icon.png" alt="Locus" className="w-4 h-4 group-hover:scale-110 transition-transform object-contain" />
+                          <img src={`${import.meta.env.BASE_URL}icon.png`} alt="Locus" className="w-4 h-4 group-hover:scale-110 transition-transform object-contain" />
                       </div>
                   </div>
                   <span className="font-bold text-lg tracking-tight text-slate-100">Locus <span className="text-slate-500 font-normal">NoteBook</span></span>
