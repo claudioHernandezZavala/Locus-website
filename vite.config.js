@@ -5,5 +5,8 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   // GitHub Pages serves at https://<user>.github.io/<repo>/
-  base: "/Locus-website/",
+  // Must match your GitHub repo name (e.g. "Locus" or "Locus-website")
+  base: process.env.GITHUB_REPOSITORY
+    ? `/${process.env.GITHUB_REPOSITORY.split("/")[1]}/`
+    : "/Locus/",
 });
