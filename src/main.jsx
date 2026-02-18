@@ -301,20 +301,6 @@ const Hero = () => {
                 app is new. Click 'More Info' → 'Run Anyway' to install.
               </p>
             </div>
-            <button className="flex items-center justify-center gap-2 px-6 py-3 rounded-lg text-sm font-semibold text-slate-300 hover:text-white transition-colors group">
-              <div className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-white/10 transition-colors">
-                <PlayCircle className="w-4 h-4 text-indigo-400" />
-              </div>
-              See how it works
-            </button>
-          </div>
-
-          <div className="flex items-center gap-6 text-xs text-slate-500 font-mono pt-8 border-t border-white/5 mt-8 w-fit">
-            <span className="flex items-center gap-2 px-3 py-1 rounded bg-white/5">
-              <ShieldCheck className="w-3 h-3 text-emerald-400" />
-              100% Privacy
-            </span>
-            <span>v1.0.4 stable</span>
           </div>
         </div>
 
